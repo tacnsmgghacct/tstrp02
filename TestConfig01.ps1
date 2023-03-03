@@ -1,1 +1,2 @@
-﻿Install-WindowsFeature -Name Web-Server -IncludeManagementTools 
+Initialize-Disk -Number 2 -PartitionStyle GPT
+New-Partition -DiskNumber 2 -DriveLetter E -UseMaximumsize 
