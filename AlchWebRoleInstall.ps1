@@ -1,4 +1,4 @@
-Install-WindowsFeature -name Web-Server -IncludeManagementTools
+Install-WindowsFeature -Name Web-Server -IncludeManagementTools
 Install-WindowsFeature -Name Web-Basic-Auth
 Install-WindowsFeature -Name Web-Digest-Auth
 Install-WindowsFeature -Name Web-Windows-Auth
